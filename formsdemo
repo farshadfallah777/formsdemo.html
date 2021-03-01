@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" 
+        <meta name = "viewport" content ="width=device-width, initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"
+        
+           <title>Forms Demo</title>
+           </head>
+           <body>
+<h1>Forms Demo!</h1>
+<form>
+<input name="city" type="text">
+<form>
+<input
+name="city" 
+type="text" 
+placeholder="Enter a City" 
+minlength="2" 
+maxlength="10" 
+required>        
+</form>
+</form>
+
+<button>Our<b>first</b>Button</button>
+<h2>Register</h2>
+<form>
+    <button type="button">Click Me!</button>
+<input type="email" placeholder ="email" name="email">
+<input type="password" name="password" placeholder="Password">
+<input type="checkbox" name="tos-agree"> I agree to the terms of service 
+<p>Select Shirt size</p>
+<input type="radio" name="shirt-size" value="XS"> XS <br>
+<input type="radio" name="shirt-sizeasd" value="XS"> S <br>
+<input type="radio" name="shirt-sizeasdasd" value="XS"> M <br>
+<input type="radio" name="shirt-sizedou" value="XS"> Large <br>
+<button type="submit">Submit Form</button>
+<!-- <input type="submit" value="GO!">  -->
+</form> 
+
+<h2>Other Input Types</h2>
+<form>
+
+Pick a Color: <input type="color" name="color">
+<button type="submit">Submit Form</button>
+
+</form>
+
+
+
+
+           </body>
+           </html>
